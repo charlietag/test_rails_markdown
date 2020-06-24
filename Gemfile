@@ -52,3 +52,13 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# basic useful dev packages
+gem 'pry-rails', :group => :development
+gem 'bullet', group: 'development'
+
+# To enable variants (Transforming Images)
+gem 'image_processing'
+
+# To enable markdown parser
+gem 'kramdown'
