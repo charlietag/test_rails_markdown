@@ -106,4 +106,4 @@
 
 ## Note
 * If this is going to be a public CMS
-  * It would be better to use carrierwave instead of active storage.  For public, not expiring URL.
+  * It would be better to use **carrierwave** instead of **active storage**.  For public, not expiring URL.
