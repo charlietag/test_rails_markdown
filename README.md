@@ -100,8 +100,10 @@
 ## Changes
 * Basic config and setup
   * https://github.com/charlietag/test_rails_markdown/compare/v0.0.0...v0.0.1
-* Start to try
-  * https://github.com/charlietag/test_rails_markdown/compare/v0.0.1...master
+* Trying kramdown
+  * https://github.com/charlietag/test_rails_markdown/compare/v0.0.1...v0.0.2
+* Trying vmg/redcarpet
+  * https://github.com/charlietag/test_rails_markdown/compare/v0.0.2...master
 
 
 ## Note
