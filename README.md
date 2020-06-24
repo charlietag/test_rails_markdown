@@ -50,7 +50,7 @@
 ## Rails setup
 
 * generate scaffold
-  * `bin/rails g scaffold Book name:string author:string`
+  * `bin/rails g scaffold Book name:string author:string description:text`
 
 
 ## config - credential
@@ -105,5 +105,8 @@
 
 
 ## Note
-* If this is going to be a public CMS
-  * It would be better to use **carrierwave** instead of **active storage**.  For public, not expiring URL.
+* kramdown
+  * Options
+    * https://kramdown.gettalong.org/options.html
+  * Syntax
+    * https://kramdown.gettalong.org/syntax.html
