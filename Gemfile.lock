@@ -91,6 +91,8 @@ GEM
       activesupport (>= 5.0.0)
     kramdown (2.2.1)
       rexml
+    kramdown-parser-gfm (1.1.0)
+      kramdown (~> 2.0)
     listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -112,6 +114,8 @@ GEM
     nio4r (2.5.2)
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
+    nokogumbo (2.0.2)
+      nokogiri (~> 1.8, >= 1.8.4)
     pry (0.13.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -157,9 +161,14 @@ GEM
       ffi (~> 1.0)
     regexp_parser (1.7.1)
     rexml (3.2.4)
+    rouge (3.20.0)
     ruby-vips (2.0.17)
       ffi (~> 1.9)
     rubyzip (2.3.0)
+    sanitize (5.2.1)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.8.0)
+      nokogumbo (~> 2.0)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)
@@ -224,11 +233,14 @@ DEPENDENCIES
   image_processing
   jbuilder (~> 2.7)
   kramdown
+  kramdown-parser-gfm
   listen (~> 3.2)
   mysql2 (>= 0.4.4)
   pry-rails
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.2)
+  rouge
+  sanitize
   sass-rails (>= 6)
   selenium-webdriver
   spring

@@ -62,3 +62,18 @@ gem 'image_processing'
 
 # To enable markdown parser
 gem 'kramdown'
+
+# For github flavored markdown
+gem 'kramdown-parser-gfm'
+
+# For math symbol
+#gem 'kramdown-math-katex' ---> instead, yarn add mathjax
+
+# Easier to use than built-in rails sanitize
+gem 'sanitize'
+
+# https://spsarolkar.github.io/rouge-theme-preview/
+gem 'rouge'
+# Ref. https://blog.walterlv.com/post/available-themes-of-rouge-style.html
+# rougify help style
+# rougify style tulip > tulip.css

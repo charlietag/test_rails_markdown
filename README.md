@@ -2,6 +2,8 @@
 * Try rails markdown parser
   * Gem: `kramdown`
 
+![kramdown-rouge-sample](/screenshots/kramdown_rouge_sample.png)
+
 ## Packages
 
 * Ruby version
@@ -30,6 +32,21 @@
     # To enable markdown parser
     gem 'kramdown'
     ```
+
+* Gems - other required packages
+  * `kramdown-parser-gfm`
+    * For github flavored markdown
+  * `sanitize`
+    * Easier to use than built-in rails sanitize
+  * `rouge`
+    * https://spsarolkar.github.io/rouge-theme-preview/
+    * `rougify help style`
+    * `rougify style tulip > tulip.css`
+
+* For math use (needs to be tuned to work with turbolinks)
+  * `yarn add mathjax`
+  * `app/javascript/packs/application.js`
+    * `import "mathjax/es5/tex-mml-chtml.js"`
 
 * jQuery
   * yarn add jquery
@@ -102,7 +119,7 @@
   * https://github.com/charlietag/test_rails_markdown/compare/v0.0.0...v0.0.1
 * Trying kramdown
   * https://github.com/charlietag/test_rails_markdown/compare/v0.0.1...v0.0.2
-* Trying vmg/redcarpet
+* Trying rouge code highlight
   * https://github.com/charlietag/test_rails_markdown/compare/v0.0.2...master
 
 
@@ -112,3 +129,5 @@
     * https://kramdown.gettalong.org/options.html
   * Syntax
     * https://kramdown.gettalong.org/syntax.html
+* So far
+  * kramdown looks easier than redcarpet
